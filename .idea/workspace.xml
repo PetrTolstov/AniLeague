@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Less File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1iaaf2Bd2u0HEyjDxtoufFj5CEi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" nameIsGenerated="true" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="" />
+      <created>1602148255496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602148255496</updated>
+      <workItem from="1602148256608" duration="785000" />
+      <workItem from="1602149127814" duration="6057000" />
+      <workItem from="1602220721735" duration="725000" />
+      <workItem from="1602222501275" duration="7179000" />
+      <workItem from="1602430810217" duration="7727000" />
+      <workItem from="1602438790055" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="82" key="#Inspections" timestamp="1602149999375">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="309" y="82" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1602149999375" />
+    <state x="390" y="47" key="#PHP" timestamp="1602149702060">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="390" y="47" key="#PHP/0.40.1366.728@0.40.1366.728" timestamp="1602149702060" />
+    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602149689923">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1602149689923" />
+    <state x="352" y="182" key="EditFileWatcherDialog" timestamp="1602149402929">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="352" y="182" key="EditFileWatcherDialog/0.40.1366.728@0.40.1366.728" timestamp="1602149402929" />
+    <state x="463" y="159" key="FileChooserDialogImpl" timestamp="1602149688971">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="463" y="159" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1602149688971" />
+    <state x="517" y="327" key="NewPhpFileDialog" timestamp="1602148268792">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="517" y="327" key="NewPhpFileDialog/0.40.1366.728@0.40.1366.728" timestamp="1602148268792" />
+    <state x="184" y="49" key="SettingsEditor" timestamp="1602149403763">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1602149403763" />
+  </component>
+</project>

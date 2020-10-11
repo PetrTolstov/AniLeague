@@ -1,0 +1,78 @@
+
+header.photoHeader {
+    background: url("../src/header.jpg") repeat-x top center;
+    position: relative;
+    background-size: 1600px;
+    min-height: 130px;
+
+}
+
+header.photoHeader hr{
+    background: #020104;
+    height: 10px;
+    width: 100%;
+    border-top: #4260f5 2px solid;
+    border-bottom: #4260f5 2px solid;
+    position: absolute;
+    bottom: -25px;
+
+}
+
+header.photoHeader img{
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    left: 200px;
+    background: #020104;
+    border: #4260f5 2px solid;
+}
+
+nav.main_nav{
+    background: #020104;
+    position: absolute;
+    border: #4260f5 2px solid;
+    height: 30px;
+    bottom: -17px;
+    right: 100px;
+    transform: scale(1.2);
+}
+
+nav.main_nav ul{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+nav.main_nav ul li{
+    padding: 0 10px ;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+nav.main_nav ul li a{
+    color: #F7F7F6;
+
+}
+
+nav.main_nav ul li a:hover{
+    color: #858585;
+    text-decoration: none;
+
+}
+
+main {
+
+
+    height: 1000px;
+    background: rgb(66, 96, 245);
+    background: linear-gradient(90deg, rgba(66, 96, 245, 1) 0%, rgba(230, 53, 148, 1) 20%, rgba(74, 94, 240, 1) 40%, rgba(230, 53, 148, 1) 61%, rgba(97, 88, 226, 1) 80%, rgba(230, 53, 148, 1) 100%);
+}
+
+p{
+    color: #22232A;
+    color: #020104;
+    color: #F7F7F6;
+    color: #46413B;
+    color: #BEBAB5;
+}
