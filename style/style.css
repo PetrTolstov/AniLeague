@@ -82,12 +82,17 @@ nav.main_nav ul li{
 
 nav.main_nav ul li a{
     color: #F7F7F6;
+    border-left: rgba(0,0,0,0) 3px solid;
+    border-right: rgba(0,0,0,0) solid;
 
 }
 
 nav.main_nav ul li a:hover{
-    color: #858585;
+
+    /*box-shadow: inset 0 0 20px #858585;*/
     text-decoration: none;
+    border-bottom: #A2F2F2 3px solid;
+
 
 }
 
@@ -111,7 +116,7 @@ main .sesonContent h2{
 main .sesonContent{
     position: relative;
     text-align: center;
-    width: 60%;
+    width: 70%;
 
     margin-left: 100px;
     margin-right: 100px;
@@ -119,11 +124,13 @@ main .sesonContent{
     padding-top: 10px; 
     padding-bottom: 60px;
     margin-bottom: 50px; 
+
+    border: black 3px solid;
 }
 
 
 main .aboutUs{
-    width: 60%;
+    width: 70%;
     padding-top: 50px;
     padding: 10px;
     color: black;
@@ -132,6 +139,9 @@ main .aboutUs{
     margin-bottom:  50px;
     margin-left: 100px;
     margin-right: 100px;
+
+
+    border: black 3px solid;
 }
 
 
@@ -143,10 +153,15 @@ main .new_anime{
     padding: 20px;
 
     background: #BEBAB5;
+
+
+    border: black 3px solid;
 }
 
-main .new_anime div{
-    display: block;
+main .new_anime {
+
+
+    border: black 3px solid;
 
 }
 
