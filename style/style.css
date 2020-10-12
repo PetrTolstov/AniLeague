@@ -97,10 +97,8 @@ nav.main_nav ul li a:hover{
 }
 
 body {
-
-    background: rgb(66, 96, 245);
-    background: linear-gradient(90deg, rgba(66, 96, 245, 1) 0%, rgba(230, 53, 148, 1) 20%, rgba(74, 94, 240, 1) 40%, rgba(230, 53, 148, 1) 61%, rgba(97, 88, 226, 1) 80%, rgba(230, 53, 148, 1) 100%);
-    position: relative;
+    background: rgb(1,13,38);
+    background: linear-gradient(90deg, rgba(1,13,38,0.9416141456582633) 0%, rgba(2,94,115,0.9472163865546218) 30%, rgba(1,18,43,0.8855917366946778) 65%, rgba(2,90,111,0.9416141456582633) 100%);
 }
 
 
@@ -135,10 +133,7 @@ main .aboutUs{
     padding: 10px;
     color: black;
     background: white;
-    margin-top: 50px; 
-    margin-bottom:  50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 50px 100px;
 
 
     border: black 3px solid;
@@ -167,7 +162,30 @@ main .new_anime div img{
     left: 45px;
 
 }
+main section.team h1{
+    text-align: center;
+    background: #BEBAB5;
+    color: black;
+    margin: 20px 300px;
+}
 
+
+
+main section.team details{
+    background: #BEBAB5;
+    color: black;
+    margin: 20px 100px;
+
+}
+
+main section.team details summary:focus{
+
+    border-bottom: #A2F2F2 3px solid;
+}
+
+main section.team details summary:hover{
+    border-bottom: #A2F2F2 3px solid;
+}
 footer{
     background: #020104;
     position: relative;
