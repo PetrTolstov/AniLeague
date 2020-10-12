@@ -7,6 +7,22 @@ header.photoHeader {
 
 }
 
+
+header.photoHeader .button{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+
+
+}
+
+
+header.photoHeader .button button{
+        width:  120px;
+        border: none;   
+        margin:  6px;
+
+}
 header.photoHeader hr{
     background: #020104;
     height: 50px;
@@ -21,6 +37,7 @@ header.photoHeader p{
     position: absolute;
     bottom: -12px;
     left: 230px;
+    color: white;
 
 }
 
@@ -30,6 +47,7 @@ header.photoHeader img{
     bottom: -35px;
     left: 100px;
     background: white;
+    border-radius: 100px;
 
 }
 
@@ -51,6 +69,7 @@ nav.main_nav ul{
     display: inline;
     padding: 0;
     margin: 0;
+    bottom: 4px;
 
 }
 
@@ -72,18 +91,51 @@ nav.main_nav ul li a:hover{
 
 }
 
-main {
-
-
+body {
     height: 1000px;
     background: rgb(66, 96, 245);
     background: linear-gradient(90deg, rgba(66, 96, 245, 1) 0%, rgba(230, 53, 148, 1) 20%, rgba(74, 94, 240, 1) 40%, rgba(230, 53, 148, 1) 61%, rgba(97, 88, 226, 1) 80%, rgba(230, 53, 148, 1) 100%);
 }
 
-p{
-    color: #22232A;
-    color: #020104;
-    color: #F7F7F6;
-    color: #46413B;
-    color: #BEBAB5;
+
+main .sesonContent div img{
+    width: 200px;
 }
+
+main .sesonContent h2{
+    padding-bottom: 30px
+}
+
+
+main .sesonContent{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #BEBAB5;
+    padding-top: 10px; 
+    padding-bottom: 60px;
+    margin-bottom: 50px; 
+}
+
+
+main .aboutUs{
+    padding-top: 50px;
+    padding: 10px;
+    color: black;
+    background: white;
+}
+
+.ficha{
+    height: 50px;
+}
+
+footer{
+    background: #020104;
+    position: absolute;
+    bottom: -32px;
+    height: 70px;
+    width: 100%;
+
+}
+
+
