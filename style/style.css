@@ -92,9 +92,10 @@ nav.main_nav ul li a:hover{
 }
 
 body {
-    height: 1000px;
+
     background: rgb(66, 96, 245);
     background: linear-gradient(90deg, rgba(66, 96, 245, 1) 0%, rgba(230, 53, 148, 1) 20%, rgba(74, 94, 240, 1) 40%, rgba(230, 53, 148, 1) 61%, rgba(97, 88, 226, 1) 80%, rgba(230, 53, 148, 1) 100%);
+    position: relative;
 }
 
 
@@ -108,7 +109,10 @@ main .sesonContent h2{
 
 
 main .sesonContent{
+    position: relative;
     text-align: center;
+    width: 60%;
+
     margin-left: 100px;
     margin-right: 100px;
     background: #BEBAB5;
@@ -119,19 +123,46 @@ main .sesonContent{
 
 
 main .aboutUs{
+    width: 60%;
     padding-top: 50px;
     padding: 10px;
     color: black;
     background: white;
+    margin-top: 50px; 
+    margin-bottom:  50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.ficha{
-    height: 50px;
+
+
+main .new_anime{
+    position: absolute;
+    right: 100px;
+    top: 240px;
+    padding: 20px;
+
+    background: #BEBAB5;
+}
+
+main .new_anime div{
+    display: block;
+
+}
+
+main .new_anime div img{
+    display: block;
+    width: 150px;
+    height: 210px;
+    padding: 10px;
+    position: relative;
+    left: 45px;
+
 }
 
 footer{
     background: #020104;
-    position: absolute;
+    position: relative;
     bottom: -32px;
     height: 70px;
     width: 100%;
