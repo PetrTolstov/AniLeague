@@ -17,8 +17,8 @@
 </head>
 <body>
 <header class="photoHeader">
-    <hr>
-    <img src="src/ur_an.png">
+    <button>Вход</button>
+    <button>Регистрация</button>
     <nav class="main_nav">
         <ul>
             <li><a href="">Главная</a></li>
@@ -30,6 +30,8 @@
 
         </ul>
     </nav>
+    <img src="src/ur_an.png">
+    <p>AniLeague</p>
 </header>
 
 <main></main>
