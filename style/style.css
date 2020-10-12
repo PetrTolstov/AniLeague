@@ -114,7 +114,7 @@ main .sesonContent h2{
 
 
 main .sesonContent{
-    position: relative;
+
     text-align: center;
     width: 70%;
 
@@ -147,10 +147,8 @@ main .aboutUs{
 
 
 main .new_anime{
-    position: absolute;
-    right: 100px;
-    top: 240px;
-    padding: 20px;
+
+    float: right;
 
     background: #BEBAB5;
 
@@ -158,12 +156,7 @@ main .new_anime{
     border: black 3px solid;
 }
 
-main .new_anime {
 
-
-    border: black 3px solid;
-
-}
 
 main .new_anime div img{
     display: block;
