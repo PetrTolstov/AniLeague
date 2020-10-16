@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="5">
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <workItem from="1602608407551" duration="2182000" />
       <workItem from="1602701987616" duration="1789000" />
       <workItem from="1602766321869" duration="2197000" />
-      <workItem from="1602825493644" duration="1958000" />
+      <workItem from="1602825493644" duration="9348000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1602445949937</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602518875127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5">
+      <created>1602827713755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602827713755</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,10 +183,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1602149403763" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1602518883014">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1602827719545">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1602518883014" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1602827719545" />
     <state x="500" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602481343353">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -190,9 +195,9 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="339" y="182" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1602517681847" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602517611907">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602828431715">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1602517611907" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1602828431715" />
   </component>
 </project>
