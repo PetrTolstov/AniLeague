@@ -14,46 +14,48 @@
     <link href="style/style.css" type="text/css" rel="stylesheet">
     <script src="scripts/page_script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
 
-<header class="photoHeader">
-    <form class="button">  
-    <button><b>Вход</b></button>
-    <button><b>Регистрация</b></button>
-    </form>
-    <nav class="main_nav">
-        <ul>
-            <li><a href="index.php">Главная</a></li>
-            <li><a href="">Случайное</a></li>
-            <li><a href="">Каталог</a></li>
-            <li><a href="">Топ аниме</a></li>
-            <li><a href="">Рейтинг пользователей</a></li>
-            <li><a href="team.html">Команда</a></li>
-            <li><a href="help.html">Помощь</a></li>
 
-        </ul>
-    </nav>
-    <img src="src/ur_an.png">
-    <p><b>AniLeague</b></p>
-</header>
+            <header class="photoHeader">
+
+                <form class="button">
+                <button><b>Вход</b></button>
+                <button><b>Регистрация</b></button>
+                </form>
+
+
+
+                <nav class="main_nav">
+                    <ul>
+                        <li><a href="index.php">Главная</a></li>
+                        <li><a href="">Случайное</a></li>
+                        <li><a href="">Каталог</a></li>
+                        <li><a href="">Топ аниме</a></li>
+                        <li><a href="">Рейтинг пользователей</a></li>
+                        <li><a href="team.html">Команда</a></li>
+                        <li><a href="help.html">Помощь</a></li>
+
+                    </ul>
+                </nav>
+
+                <img src="src/ur_an.png">
+                <p><b>AniLeague</b></p>
+
+            </header>
 
 <main>
-    <aside class="new_anime">
-        <h3>Новое на сайте</h3>
-        <div>
-            <a href=""><img src="src/new_poster_1.jpg"></a>
-            <a href=""><img src="src/new_poster_2.jpg"></a>
-            <a href=""><img src="src/new_poster_3.jpg"></a>
-            <a href=""><img src="src/new_poster_4.jpg"></a>
-        </div>
-    </aside>
 
-    <article class="aboutUs">
+    <div class="row">
+        <div class="col-sm-8">
+    <article class="jumbotron rounded" style="margin-right: 0">
+
         <h1>AniLeague</h1>
         <p>- morbi turpis dui, vehicula sit amet arcu ut, euismod condimentum diam. Sed tincidunt, lectus a tincidunt vehicula, justo quam tempor sapien, quis viverra turpis enim pellentesque lorem. Mauris ac sem diam. Donec sagittis pulvinar consectetur. Etiam diam odio, pretium id molestie molestie, consectetur nec metus. Quisque eu orci porttitor, auctor mauris vel, condimentum mi. Pellentesque eget velit at lacus scelerisque elementum id eu est.</p>
-    </article>
 
+    </article>
 
     <section class="sesonContent">
         <h2>Аниме осеннего сезона</h2>
@@ -76,6 +78,20 @@
 
         </div>
     </section>
+        </div>
+        <div class="col-sm-4">
+    <aside class="new_anime" style="margin-right: 0">
+        <h3>Новое на сайте</h3>
+        <div>
+            <a href=""><img src="src/new_poster_1.jpg"></a>
+            <a href=""><img src="src/new_poster_2.jpg"></a>
+            <a href=""><img src="src/new_poster_3.jpg"></a>
+            <a href=""><img src="src/new_poster_4.jpg"></a>
+        </div>
+    </aside>
+        </div>
+    </div>
+
 </main>
 
 <footer>
@@ -92,5 +108,9 @@
         </ul>
     </nav>
 </footer>
+</div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>

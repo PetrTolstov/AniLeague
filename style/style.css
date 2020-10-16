@@ -105,7 +105,7 @@ body {
 main .sesonContent div img{
     width: 200px;
 }
-
+/*
 main .sesonContent h2{
     padding-bottom: 30px
 }
@@ -152,7 +152,7 @@ main .new_anime{
 }
 
 
-
+*/
 main .new_anime div img{
     display: block;
     width: 150px;
@@ -162,6 +162,7 @@ main .new_anime div img{
     left: 45px;
 
 }
+
 main section.team h1{
     text-align: center;
     background: #BEBAB5;
@@ -186,6 +187,9 @@ main section.team details summary:focus{
 main section.team details summary:hover{
     border-bottom: #A2F2F2 3px solid;
 }
+
+
+
 footer{
     background: #020104;
     position: relative;

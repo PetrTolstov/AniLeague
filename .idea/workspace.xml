@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="5">
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
@@ -37,6 +39,7 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -86,7 +90,12 @@
       <workItem from="1602445476666" duration="2814000" />
       <workItem from="1602481302260" duration="92000" />
       <workItem from="1602515119067" duration="18000" />
-      <workItem from="1602515305236" duration="3404000" />
+      <workItem from="1602515305236" duration="4616000" />
+      <workItem from="1602580775633" duration="510000" />
+      <workItem from="1602608407551" duration="2182000" />
+      <workItem from="1602701987616" duration="1789000" />
+      <workItem from="1602766321869" duration="2197000" />
+      <workItem from="1602825493644" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1602445949937</created>
@@ -109,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602516239697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5">
+      <created>1602518875127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602518875127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,10 +158,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="390" y="47" key="#PHP/0.40.1366.728@0.40.1366.728" timestamp="1602149702060" />
-    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602149689923">
+    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602608435704">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1602149689923" />
+    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1602608435704" />
     <state x="352" y="182" key="EditFileWatcherDialog" timestamp="1602149402929">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -162,10 +178,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1602149403763" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1602516328486">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1602518883014">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1602516328486" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1602518883014" />
     <state x="500" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602481343353">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
