@@ -1,3 +1,49 @@
+@media (max-width: 900px) {
+ div.logo{
+     visibility: hidden;
+ }
+    nav.main_nav ul{
+        right: auto;
+    }
+
+}
+
+@media (max-width: 670px) {
+    header.photoHeader form.button{
+        right: auto;
+    }
+    nav.main_nav ul li.main{
+        padding-right: 10px;
+    }
+
+    nav.main_nav ul details summary.text-white {
+
+        width: auto;
+    }
+    div.container.mt-5{
+        width: 100%;
+    }
+
+    a img{
+        height: 320px;
+        width: 275px;
+
+    }
+    p.with_a{
+        width: 275px;
+        background: rgba(255, 255, 255, 0.9);
+        color: black ;
+        border-bottom: #5c9696 3px solid;
+    }
+
+}
+
+.font-weight-light.text-white.text-left.pl-2{
+    width: auto;
+    padding-bottom: 4px ;
+    border-bottom: #5c9696 3px solid;
+}
+
 .film_recom{
     background: #67a2a2;
 }
@@ -10,11 +56,14 @@ header.photoHeader {
 
 }
 
+.container.mt-5{
+    width: 75%;
+}
 
 header.photoHeader .button{
     position: absolute;
-    right: 100px;
-    top: 30px;
+    right: 180px;
+    top: 20px;
 
 
 }
@@ -22,24 +71,21 @@ header.photoHeader .button{
 
 header.photoHeader .button button{
         width:  120px;
-        border: none;   
         margin:  6px;
-
+        transition: 1s;
 }
-header.photoHeader hr{
-    background: #020104;
-    height: 50px;
-    width: 100%;
 
-    position: absolute;
-    bottom: -25px;
 
+header.photoHeader .button button:hover {
+    background: rgba(255,255,255, 0.3);
+    color: white;
 }
+
 
 header.photoHeader p{
     position: absolute;
     bottom: -12px;
-    left: 230px;
+    left: 120px;
     color: white;
 
 }
@@ -49,14 +95,14 @@ header.photoHeader img{
     width: auto;
     position: absolute;
     bottom: -35px;
-    left: 100px;
+    left: 10px;
     background: white;
     border-radius: 1000px;
 
 }
 
 nav.main_nav{
-    background: #020104;
+    background: #22232A;
     position: absolute;
     width: 100%;
     height: 30px;
@@ -69,25 +115,64 @@ nav.main_nav{
 
 nav.main_nav ul{
     position: absolute;
-    right: 100px;
+    right: 0;
     display: inline;
     padding: 0;
     margin: 0;
     bottom: 4px;
 
+
 }
 
 nav.main_nav ul li{
-    padding: 0 10px ;
+    padding-right: 146px ;
     display: inline-block;
     text-decoration: none;
+
 }
 
+
+details[open] {
+    animation: slide .3s ease-in-out;
+
+}
+
+@keyframes slide {
+    0%    { opacity: 0; transform:  translate(0,10px); }
+    100%  { opacity: 1; transform:  translate(0, 0); }
+}
+
+nav.main_nav ul details li {
+    padding: 0 10px ;
+    display: block;
+
+
+}
+
+nav.main_nav ul details{
+    padding: 0 10px ;
+    display: inline-block;
+
+}
+
+
+
+nav.main_nav ul details summary {
+    width: 200px;
+
+
+}
+
+
+nav.main_nav ul summary:focus {
+    outline: none;
+}
 
 nav.main_nav ul li a{
     color: #F7F7F6;
     border-left: rgba(0,0,0,0) 3px solid;
     border-right: rgba(0,0,0,0) solid;
+    transition: 0.1s;
 
 
 }
@@ -97,78 +182,63 @@ nav.main_nav ul li a:hover{
     /*box-shadow: inset 0 0 20px #858585;*/
     text-decoration: none;
     border-bottom: #5c9696 3px solid;
-
-
-
-
-
-
+    color: #3449d4;
 }
 
 
 
 body {
     background: rgb(1,13,38);
-    background: linear-gradient(90deg, rgba(1,13,38,0.9416141456582633) 0%, rgba(2,94,115,0.9472163865546218) 30%, rgba(1,18,43,0.8855917366946778) 65%, rgba(2,90,111,0.9416141456582633) 100%);
+    background: linear-gradient(90deg, rgba(1,13,38,0.9416141456582633) 0%, rgba(2,94,115,0.9472163865546218) 30%, rgba(1,18,43,0.8855917366946778) 65%, rgba(2, 90, 111, 0.94) 100%);
+
 }
 
 
 img{
-    height: 190px;
-    width: 135px;
-
+    height: 210px;
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: #22232A 0 0 1px 5px ;
 }
 
 div a{
     position: relative;
     padding: 10px;
+
 }
 
 .with_a{
+    width: 160px;
 
-    background: rgba(92,92,92,0.8);
-    color: rgba(255,255,255,0.8) ;
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0,0,0, 0.5);
+    transition: 0.2s;
+    font-weight: bold;
     position: absolute;
     right: 10px;
-    top: 70px;
-    height: 50px;
-    width: 135px;
+    top: 20px;
+    max-height: 50px;
+    height: auto;
+
+    overflow: hidden;
 }
 
 .with_a:hover{
-    background: rgba(41, 41, 41, 0.9);
+    background: rgba(255, 255, 255, 0.9);
+    color: black ;
+    overflow: auto;
+    height: auto;
+    max-height: none;
+    border-bottom: #5c9696 3px solid;
 
 }
-
-main section.team h1{
-    text-align: center;
-    background: #BEBAB5;
-    color: black;
-    margin: 20px 300px;
-}
-
-
-
-main section.team details{
-    background: #BEBAB5;
-    color: black;
-    margin: 20px 100px;
-
-}
-
-main section.team details summary:focus{
-
-    border-bottom: #A2F2F2 3px solid;
-}
-
-main section.team details summary:hover{
-    border-bottom: #A2F2F2 3px solid;
-}
-
+main aside a img, main section a img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+              }
 
 
 footer{
-    background: #020104;
     position: relative;
     bottom: -32px;
     height: 70px;

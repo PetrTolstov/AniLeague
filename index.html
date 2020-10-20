@@ -9,8 +9,8 @@
     <meta name = "robots" content = "index, follow"> <!-- Используется поисковыми системами при индексации страниц и прохода по ссылкам поисковой системой-->
     <meta name = "viewport" content = "width=device-width, initial-scale = 1"> <!--Для того, чтобы мобильные браузеры автоматически не изменяли размер страниц сайта-->
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <title>Base of kino</title>
-    <link rel="icon" href="style/icon.png" sizes="16x16 32х32" type="image/png">
+    <title>AniLeague🌑</title>
+    <link rel="icon" href="src/icon.png" sizes="16x16 32х32" type="image/png">
     <link href="style/style.css" type="text/css" rel="stylesheet">
     <script src="scripts/page_script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -19,97 +19,152 @@
 <body>
             <header class="photoHeader">
 
+
                 <form class="button">
-                <button><b>Вход</b></button>
-                <button><b>Регистрация</b></button>
+                <a href="index.js?a=b"><button class="btn btn-outline-light"><b>Вход</b></button></a>
+                <a href="#"><button class="btn btn-outline-light"><b>Регистрация</b></button></a>
                 </form>
 
 
 
                 <nav class="main_nav">
                     <ul>
-                        <li><a href="index.php">Главная</a></li>
-                        <li><a href="">Случайное</a></li>
-                        <li><a href="">Каталог</a></li>
-                        <li><a href="">Топ аниме</a></li>
-                        <li><a href="">Рейтинг пользователей</a></li>
-                        <li><a href="team.html">Команда</a></li>
-                        <li><a href="help.html">Помощь</a></li>
+                        <!--
+                       <li><a href="index.php">Главная</a></li>
+                       <li><a href="">Случайное</a></li>
+                       <li><a href="">Kаталог</a></li>
+                       <li><a href="">Топ аниме</a></li>
+                       <li><a href="">Рейтинг пользователей</a></li>
+                       <li><a href="team.html">Команда</a></li>
+                       <li><a href="help.html">Помощь</a></li>
+                      -->
 
+                       <li class="main"><a  href="index.html">Главная</a></li>
+
+
+                       <details  class="rounded" ontoggle="this.style.background='#22232A'" onmouseover="this.open=true" onmouseout="this.open=false">
+                        <summary class="text-white">Каталог</summary>
+                       <li><a href="">Расширенный каталог</a></li>
+                       <li><a href="">Топ аниме</a></li>
+                       <li><a href="">Случайное</a></li>
+                       </details>
+
+                        <details class="rounded" ontoggle="this.style.background='#22232A'" onmouseover="this.open=true;" onmouseout="this.open=false">
+                            <summary class="text-white">Помощь</summary>
+                       <li><a href="">Рейтинг пользователей</a></li>
+                       <li><a href="team.html">Команда</a></li>
+                       <li><a href="help.html">Тех Поддержка</a></li>
+                       <li><a href="team.html">FAQ</a></li>
+                        </details>
                     </ul>
                 </nav>
 
+
+                <div class="logo">
                 <img src="src/ur_an.png">
                 <p><b>AniLeague</b></p>
+                </div>
 
             </header>
 
 <main>
 
-    <div class="container w-75 mt-5 ">
+    <div class="container-fluid mt-5 w-100">
     <div class="row">
-        <div class="col-lg-9">
+        <div class="col-xl-7">
+
+<!--
     <article class="jumbotron rounded p-2 " style="margin-right: 0">
 
         <h1 class="text-center">AniLeague</h1>
         <p>- morbi turpis dui, vehicula sit amet arcu ut, euismod condimentum diam. Sed tincidunt, lectus a tincidunt vehicula, justo quam tempor sapien, quis viverra turpis enim pellentesque lorem. Mauris ac sem diam. Donec sagittis pulvinar consectetur. Etiam diam odio, pretium id molestie molestie, consectetur nec metus. Quisque eu orci porttitor, auctor mauris vel, condimentum mi. Pellentesque eget velit at lacus scelerisque elementum id eu est.</p>
-
     </article>
+-->
 
-    <section class="sesonContent mb-5 rounded p-2 pb-4 text-center film_recom">
-        <h2>Аниме осеннего сезона</h2>
+    <section class="jumbotron mb-3 p-0 rounded text-center">
+        <div class="rounded-top w-100 pb-2" style="background: #22232A">
+        <h2 class="font-weight-light text-white text-left pl-2">Аниме осеннего сезона</h2>
+        </div>
         <div>
-            <a href=""><img src="src/sesond_poster_1.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-            <a href=""><img src="src/sesond_poster_2.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-            <a href=""><img src="src/sesond_poster_3.jpeg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-            <a href=""><img src="src/sesond_poster_4.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
+            <a href=""><img src="src/sesond_poster_1.jpg"><p class="with_a">Огненная бригада пожарных</p></a>
+            <a href=""><img src="src/sesond_poster_2.jpg"><p class="with_a">Сжечь ведьму</p></a>
+            <a href=""><img src="src/sesond_poster_3.jpeg"><p class="with_a">Чёрный клевер</p></a>
+            <a href=""><img src="src/sesond_poster_4.jpg"><p class="with_a">Волейбол</p></a>
 
         </div>
     </section>
 
-    <section class="sesonContent mb-5 rounded p-2 pb-4 text-center film_recom">
-        <h2>Лучшее аниме месяца</h2>
+    <section class="jumbotron mb-3 p-0 rounded text-center">
+        <div class="rounded-top w-100 pb-2" style="background: #22232A">
+        <h2 class="font-weight-light text-white text-left pl-2">Лучшее аниме месяца</h2>
+        </div>
         <div>
-            <a href=""><img src="src/sesond_poster_1.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-            <a href=""><img src="src/sesond_poster_2.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-            <a href=""><img src="src/sesond_poster_3.jpeg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-            <a href=""><img src="src/sesond_poster_4.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
+            <a href=""><img src="src/sesond_poster_1.jpg"><p class="with_a">Огненная бригада пожарных</p></a>
+            <a href=""><img src="src/sesond_poster_2.jpg"><p class="with_a">Сжечь ведьму</p></a>
+            <a href=""><img src="src/sesond_poster_3.jpeg"><p class="with_a">Чёрный клевер</p></a>
+            <a href=""><img src="src/sesond_poster_4.jpg"><p class="with_a">Волейбол</p></a>
 
         </div>
     </section>
         </div>
 
-        <div class="col-lg-3">
-    <aside class="new_anime rounded text-center pb-4 pt-1 film_recom" style="margin-right: 0">
-    <div>
-        <h3>Новое на сайте</h3>
-        <a href=""><img src="src/new_poster_1.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-        <a href=""><img src="src/new_poster_2.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-        <a href=""><img src="src/new_poster_3.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
-        <a href=""><img src="src/new_poster_4.jpg"><p class="with_a">Bruh Bruh Bruh Bruh</p></a>
+        <div class="col-xl-5">
+    <aside class="jumbotron mb-3 p-0 rounded text-center" style="margin-right: 0">
+    <div class="m-0 p-0" >
+
+        <div class="rounded-top w-100 pb-2" style="background: #22232A">
+        <h2 class="font-weight-light text-white text-left pl-2">Новое на сайте</h2>
+        </div>
+
+        <a href="" ><img src="src/new_poster_1.jpg"><p class="with_a">Агрессивная Рэцуко</p></a>
+        <a href=""><img src="src/new_poster_2.jpg"><p class="with_a">Мегазона 23</p></a>
+        <a href=""><img src="src/new_poster_3.jpg"><p class="with_a">Шерлок из Кабуки-тё</p></a>
+        <a href=""><img src="src/new_poster_4.jpg"><p class="with_a">Как воспитать героиню из обычной девушки</p></a>
     </div>
     </aside>
     </div>
     </div>
     </div>
 </main>
-
+    <video controls src="https://video.sibnet.ru/video4114012"></video>
+    <iframe src=""></iframe>
 <footer>
+
     <nav class="main_nav">
         <ul>
-            <li><a href="">Главная</a></li>
-            <li><a href="">Случайное</a></li>
-            <li><a href="">Каталог</a></li>
-            <li><a href="">Топ аниме</a></li>
-            <li><a href="">Рейтинг пользователей</a></li>
-            <li><a href="">Команда</a></li>
-            <li><a href="">Помощь</a></li>
+            <!--
+           <li><a href="index.php">Главная</a></li>
+           <li><a href="">Случайное</a></li>
+           <li><a href="">Kаталог</a></li>
+           <li><a href="">Топ аниме</a></li>
+           <li><a href="">Рейтинг пользователей</a></li>
+           <li><a href="team.html">Команда</a></li>
+           <li><a href="help.html">Помощь</a></li>
+          -->
 
+            <li class="main"><a href="index.php">Главная</a></li>
+
+
+            <details  class="rounded" ontoggle="this.style.background='#22232A'" onmouseover="this.open=true" onmouseout="this.open=false">
+                <summary class="text-white">Каталог</summary>
+                <li><a href="">Расширенный каталог</a></li>
+                <li><a href="">Топ аниме</a></li>
+                <li><a href="">Случайное</a></li>
+            </details>
+
+            <details class="rounded" ontoggle="this.style.background='#22232A'" onmouseover="this.open=true;" onmouseout="this.open=false">
+                <summary class="text-white">Помощь</summary>
+                <li><a href="">Рейтинг пользователей</a></li>
+                <li><a href="team.html">Команда</a></li>
+                <li><a href="help.html">Тех Поддержка</a></li>
+                <li><a href="team.html">FAQ</a></li>
+            </details>
         </ul>
     </nav>
 </footer>
 </div>
 </body>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
