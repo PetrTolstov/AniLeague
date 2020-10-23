@@ -24,11 +24,11 @@
         width: 100%;
     }
 
-    a img{
+    /*a img{
         height: 320px;
         width: 275px;
 
-    }
+    }*/
     p.with_a{
         width: 275px;
         background: rgba(255, 255, 255, 0.9);
@@ -39,10 +39,11 @@
 }
 
 .font-weight-light.text-white.text-left.pl-2{
-    width: auto;
-    padding-bottom: 4px ;
-    border-bottom: #5c9696 3px solid;
+
+    text-decoration: underline #5c9696 ;
 }
+
+
 
 .film_recom{
     background: #67a2a2;
@@ -194,12 +195,14 @@ body {
 }
 
 
+/*
 img{
     height: 210px;
     width: 160px;
     border-radius: 10px;
     box-shadow: #22232A 0 0 1px 5px ;
 }
+*/
 
 div a{
     position: relative;
@@ -232,10 +235,10 @@ div a{
     border-bottom: #5c9696 3px solid;
 
 }
-main aside a img, main section a img{
+/*main aside a img, main section a img{
     margin-top: 20px;
     margin-bottom: 20px;
-              }
+              }*/
 
 
 footer{
