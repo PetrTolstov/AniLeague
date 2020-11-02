@@ -15,6 +15,9 @@
     <script src="scripts/page_script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+
+    </style>
 </head>
 <body>
             <header class="photoHeader">
@@ -27,17 +30,11 @@
 
 
 
+
+<!--
                 <nav class="main_nav">
                     <ul>
-                        <!--
-                       <li><a href="index.php">Главная</a></li>
-                       <li><a href="">Случайное</a></li>
-                       <li><a href="">Kаталог</a></li>
-                       <li><a href="">Топ аниме</a></li>
-                       <li><a href="">Рейтинг пользователей</a></li>
-                       <li><a href="team.html">Команда</a></li>
-                       <li><a href="help.html">Помощь</a></li>
-                      -->
+
 
                        <li class="main"><a  href="index.html">Главная</a></li>
 
@@ -64,8 +61,47 @@
                 <img src="src/ur_an.png">
                 <p><b>AniLeague</b></p>
                 </div>
-
+-->
             </header>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark pb-0 pt-0">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <p class="m-0"><b>AniLeague</b></p>
+    </a>
+
+    <!-- Links -->
+    <ul class="nav navbar-nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Главная</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                Каталог
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Расширенный каталог</a>
+                <a class="dropdown-item" href="#">Топ аниме</a>
+                <a class="dropdown-item" href="#">Случайное</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                Помощь
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Рейтинг пользователей</a>
+                <a class="dropdown-item" href="#">Команда</a>
+                <a class="dropdown-item" href="#">Тех Поддержка</a>
+                <a class="dropdown-item" href="#">FAQ</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+    </header>
 
 <main>
 
@@ -81,62 +117,87 @@
     </article>
 -->
 
-    <section class="jumbotron mb-4.5 p-0 rounded text-center" style="height: 500px">
+    <section class="jumbotron mb-4.5 p-0 rounded text-center">
         <div class="rounded-top w-100 pb-2" style="background: #22232A">
         <h2 class="font-weight-light text-white text-left pl-2">Аниме осеннего сезона</h2>
         </div>
-        <div class="card-deck p-3">
+        <div class="card-deck p-3 justify-content-center">
 
-            <div class="card" style="width:160px; height: 210px">
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1 rounded-top" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Огненная бригада пожарных</b></p>
+                </div>
                 <img class="card-img-top" src="src/sesond_poster_1.jpg" alt="Card image">
-                <div class="card-body bg-secondary" style="">
-                    <p class="card-text">Огненная бригада пожарных</p>
-                    <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-                </div>
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
             </div>
 
-            <div class="card" style="width:160px; height: 210px">
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0">Сжечь ведьму</p>
+                </div>
                 <img class="card-img-top" src="src/sesond_poster_2.jpg" alt="Card image">
-                <div class="card-body bg-secondary">
-                    <p class="card-text">Сжечь ведьму</p>
-                    <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-                </div>
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
             </div>
 
-            <div class="card" style="width:160px; height: 210px">
-                <img class="card-img-top" src="src/sesond_poster_3.jpeg" alt="Card image">
-                <div class="card-body bg-secondary">
-                    <p class="card-text">Чёрный клевер</p>
-                    <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Чёрный клевер</b></p>
                 </div>
+                <img class="card-img-top" src="src/sesond_poster_3.jpeg" alt="Card image" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
             </div>
 
-            <div class="card" style="width:160px; height: 210px">
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Волейбол</b></p>
+                </div>
                 <img class="card-img-top" src="src/sesond_poster_4.jpg" alt="Card image">
-                <div class="card-body bg-secondary">
-                    <h4 class="card-title"></h4>
-                    <p class="card-text">Волейбол</p>
-                    <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-                </div>
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
             </div>
-            <!---
-            <a href=""><img src="src/sesond_poster_1.jpg"><p class="with_a">Огненная бригада пожарных</p></a>
-            <a href=""><img src="src/sesond_poster_2.jpg"><p class="with_a">Сжечь ведьму</p></a>
-            <a href=""><img src="src/sesond_poster_3.jpeg"><p class="with_a">Чёрный клевер</p></a>
-            <a href=""><img src="src/sesond_poster_4.jpg"><p class="with_a">Волейбол</p></a>
-            -->
+
+
+
+
         </div>
     </section>
-<!--
+
     <section class="jumbotron mb-4.5 p-0 rounded text-center">
         <div class="rounded-top w-100 pb-2" style="background: #22232A">
         <h2 class="font-weight-light text-white text-left pl-2">Лучшее аниме месяца</h2>
         </div>
-        <div>
-            <a href=""><img src="src/sesond_poster_1.jpg"><p class="with_a">Огненная бригада пожарных</p></a>
-            <a href=""><img src="src/sesond_poster_2.jpg"><p class="with_a">Сжечь ведьму</p></a>
-            <a href=""><img src="src/sesond_poster_3.jpeg"><p class="with_a">Чёрный клевер</p></a>
-            <a href=""><img src="src/sesond_poster_4.jpg"><p class="with_a">Волейбол</p></a>
+        <div class="card-deck p-3">
+
+            <div class="card" style="width:160px;">
+                <div class="card-header bg-info p-1 rounded-top" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Огненная бригада пожарных</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_1.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link rounded-0">Посмотреть</a>
+            </div>
+
+            <div class="card" style="width:160px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Сжечь ведьму</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_2.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
+            </div>
+
+            <div class="card" style="width:160px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Чёрный клевер</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_3.jpeg" alt="Card image" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
+            </div>
+
+            <div class="card" style="width:160px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Волейбол</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_4.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
+            </div>
 
         </div>
     </section>
@@ -144,17 +205,85 @@
 
         <div class="col-xl-5">
     <aside class="jumbotron mb-4.5 p-0 rounded text-center" style="margin-right: 0">
-    <div class="m-0 p-0" >
-
         <div class="rounded-top w-100 pb-2" style="background: #22232A">
-        <h2 class="font-weight-light text-white text-left pl-2">Новое на сайте</h2>
+            <h2 class="font-weight-light text-white text-left pl-2">Новое на сайте</h2>
         </div>
 
-        <a href="" ><img src="src/new_poster_1.jpg"><p class="with_a">Агрессивная Рэцуко</p></a>
-        <a href=""><img src="src/new_poster_2.jpg"><p class="with_a">Мегазона 23</p></a>
-        <a href=""><img src="src/new_poster_3.jpg"><p class="with_a">Шерлок из Кабуки-тё</p></a>
-        <a href=""><img src="src/new_poster_4.jpg"><p class="with_a">Как воспитать героиню из обычной девушки</p></a>
-    </div>
+        <div class="card-deck p-3 justify-content-center">
+
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1 rounded-top" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Огненная бригада пожарных</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_1.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
+            </div>
+
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0">Сжечь ведьму</p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_2.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
+            </div>
+
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Чёрный клевер</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_3.jpeg" alt="Card image" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
+            </div>
+
+            <div class="card-xl p-3" style="width:232px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Волейбол</b></p>
+                </div>
+                <img class="card-img-top" src="src/sesond_poster_4.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link rounded-0 "style="width:200px;">Посмотреть</a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="card-deck p-3">
+
+            <div class="card" style="width:160px;">
+                <div class="card-header bg-info p-1 rounded-top" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Агрессивная Рэцуко</b></p>
+                </div>
+                <img class="card-img-top" src="src/new_poster_1.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link rounded-0">Посмотреть</a>
+            </div>
+
+            <div class="card" style="width:160px; ">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Мегазона</b></p>
+                </div>
+                <img class="card-img-top" src="src/new_poster_2.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
+            </div>
+
+
+            <div class="card w-50" style="width:160px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Шерлок из Кабуки-тё</b></p>
+                </div>
+                <img class="card-img-top" src="src/new_poster_3.jpg" style="" alt="Card image" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
+            </div>
+
+            <div class="card" style="width:160px;">
+                <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                    <p class="headingOfAnime m-0"><b>Как воспитать героиню из обычной девушки</b></p>
+                </div>
+                <img class="card-img-top" src="src/new_poster_4.jpg" alt="Card image">
+                <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
+            </div>
+
+        </div>
     </aside>
     </div>
     </div>
@@ -198,7 +327,26 @@
 </footer>
 </div>
 </body>
+<script>
+    function setMoreSpace(cardBody){
+        let headingOfAnime = cardBody.getElementsByTagName("p")[0];
+        headingOfAnime.style.zIndex = '2';
+        alert(headingOfAnime.style.zIndex)
+        headingOfAnime.style.background = '#17A2B8';
+        cardBody.style.zIndex = '1';
 
+
+
+    }
+
+    function delSpace(cardBody){
+        cardBody.style.zIndex = 'auto';
+
+    }
+
+
+
+</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
