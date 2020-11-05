@@ -220,39 +220,137 @@
                     <div class="rounded-top w-100 pb-2 bg-dark">
                         <h2 class="font-weight-light text-white text-left pl-2">Лучшее аниме месяца</h2>
                     </div>
-                    <div class="card-deck p-3">
+                    <div id="top_carousel" class="carousel slide" data-ride="carousel">
 
-                        <div class="card" style="width:160px;">
-                            <div class="card-header bg-info p-1 rounded-top" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
-                                <p class="headingOfAnime m-0"><b>Огненная бригада пожарных</b></p>
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#top_carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#top_carousel" data-slide-to="1"></li>
+                            <li data-target="#top_carousel" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+
+                                <div class="card-deck p-3 justify-content-center">
+
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark text-white  rounded-0" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Огненная бригада пожарных</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_1.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Сжечь ведьму</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_2.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Чёрный клевер</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_3.jpeg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Волейбол</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_4.jpg" alt="Card image">
+                                    </div></a>
+
+
+                                </div>
+
                             </div>
-                            <img class="card-img-top" src="src/sesond_poster_1.jpg" alt="Card image">
-                            <a href="#" class="btn btn-primary stretched-link rounded-0">Посмотреть</a>
+                            <div class="carousel-item">
+
+                                <div class="card-deck p-3 justify-content-center">
+
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Бездомный бог</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_5.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0 rounded-0">Атака титанов</p>
+                                        </div>
+                                        <img class="card-img-top m-0" src="src/sesond_poster_6.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0 rounded-0">Клинок, рассекающий демонов: бесконечный поезд</p>
+                                        </div>
+                                        <img class="card-img-top m-0" src="src/sesond_poster_7.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0 rounded-0">Наруто</p>
+                                        </div>
+                                        <img class="card-img-top m-0" src="src/sesond_poster_8.jpg" alt="Card image">
+                                    </div></a>
+
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="card-deck p-3 justify-content-center">
+
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Дети моря</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_9.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Унесенный призраком</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_10.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Ходячий замок</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_11.jpg" alt="Card image">
+                                    </div></a>
+
+                                    <a href="#" class="p-0 m-0"><div class="card-xl p-0" style="width:150px;">
+                                        <div class="card-header p-1 bg-dark  rounded-0 text-white" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
+                                            <p class="headingOfAnime m-0">Дитя погоды</p>
+                                        </div>
+                                        <img class="card-img-top m-0 rounded-0" src="src/sesond_poster_12.jpg" alt="Card image">
+                                    </div></a>
+
+
+                                </div>
+
+                            </div>
                         </div>
 
-                        <div class="card" style="width:160px;">
-                            <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
-                                <p class="headingOfAnime m-0"><b>Сжечь ведьму</b></p>
-                            </div>
-                            <img class="card-img-top" src="src/sesond_poster_2.jpg" alt="Card image">
-                            <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
-                        </div>
-
-                        <div class="card" style="width:160px;">
-                            <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
-                                <p class="headingOfAnime m-0"><b>Чёрный клевер</b></p>
-                            </div>
-                            <img class="card-img-top" src="src/sesond_poster_3.jpeg" alt="Card image" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
-                            <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
-                        </div>
-
-                        <div class="card" style="width:160px;">
-                            <div class="card-header bg-info p-1" style="height: 30px;" onmouseover="setMoreSpace(this)" onmouseout="delSpace(this)">
-                                <p class="headingOfAnime m-0"><b>Волейбол</b></p>
-                            </div>
-                            <img class="card-img-top" src="src/sesond_poster_4.jpg" alt="Card image">
-                            <a href="#" class="btn btn-primary stretched-link">Посмотреть</a>
-                        </div>
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#top_carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon" style="background-image: url('src/left.png')"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#top_carousel" data-slide="next">
+                            <span class="carousel-control-next-icon" style="background-image: url('src/right.png')"></span>
+                        </a>
 
                     </div>
                 </section>
@@ -339,39 +437,40 @@
         </div>
     </div>
 </main>
-<video controls src="https://video.sibnet.ru/video4114012"></video>
-<iframe src=""></iframe>
+
 <footer>
 
-    <nav class="main_nav">
-        <ul>
-            <!--
-           <li><a href="index.php">Главная</a></li>
-           <li><a href="">Случайное</a></li>
-           <li><a href="">Kаталог</a></li>
-           <li><a href="">Топ аниме</a></li>
-           <li><a href="">Рейтинг пользователей</a></li>
-           <li><a href="team.html">Команда</a></li>
-           <li><a href="help.html">Помощь</a></li>
-          -->
+    <nav class="navbar navbar-expand-sm navbar-dark pb-0 pt-0 justify-content-center dropup" style="background: #22232A">
 
-            <li class="main"><a href="index.php">Главная</a></li>
+        <!-- Links -->
+        <ul class="nav navbar-nav s">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Главная</a>
+            </li>
 
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                    Каталог
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Расширенный каталог</a>
+                    <a class="dropdown-item" href="#">Топ аниме</a>
+                    <a class="dropdown-item" href="#">Случайное</a>
+                </div>
+            </li>
 
-            <details  class="rounded" ontoggle="this.style.background='#22232A'" onmouseover="this.open=true" onmouseout="this.open=false">
-                <summary class="text-white">Каталог</summary>
-                <li><a href="">Расширенный каталог</a></li>
-                <li><a href="">Топ аниме</a></li>
-                <li><a href="">Случайное</a></li>
-            </details>
-
-            <details class="rounded" ontoggle="this.style.background='#22232A'" onmouseover="this.open=true;" onmouseout="this.open=false">
-                <summary class="text-white">Помощь</summary>
-                <li><a href="">Рейтинг пользователей</a></li>
-                <li><a href="team.html">Команда</a></li>
-                <li><a href="help.html">Тех Поддержка</a></li>
-                <li><a href="team.html">FAQ</a></li>
-            </details>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                    Помощь
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Рейтинг пользователей</a>
+                    <a class="dropdown-item" href="#">Команда</a>
+                    <a class="dropdown-item" href="#">Тех Поддержка</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                </div>
+            </li>
         </ul>
     </nav>
 </footer>

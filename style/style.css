@@ -257,19 +257,10 @@ main aside a img, main section a img{
               }
 
 
-footer{
-    position: relative;
-    bottom: -32px;
-    height: 70px;
-    width: 100%;
-
-}
 
 
 
-
-
-/* right or prev direction */
+/* right or prev direction
 .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
 .carousel-item-prev.carousel-item-right + .carousel-item,
 .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
@@ -284,7 +275,7 @@ footer{
 
 
 
-/* Bootstrap Lightbox using Modal */
+/* Bootstrap Lightbox using Modal
 
 #profile-grid { overflow: auto; white-space: normal; }
 #profile-grid .profile { padding-bottom: 40px; }
@@ -294,5 +285,5 @@ footer{
 #profile-grid .thumbnail {margin-bottom:6px;}
 #profile-grid .panel-thumbnail { overflow: hidden; }
 #profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
-
+*/
 
