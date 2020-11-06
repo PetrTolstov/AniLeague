@@ -1,115 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name = "description" content = "Site about films" > <!-- мета элемент, который описывает содержимое документа -->
-    <meta name = "keywords" content = "film, watch"> <!-- мета элемент, который описывает ключевые слова в документе -->
-    <meta name = "author" content = "Petr Tolstov"> <!-- мета элемент, который указывает имя автора документа -->
-    <meta charset="UTF-8" http-equiv="refresh" content="9999" >
-    <!--<meta  http-equiv  = "content-security-policy" content = "default-src https:" > мета элемент, который разрешает загрузку ресурсов (изображения, шрифты, скрипты и так далее) только с использованием https -->
-    <meta name = "robots" content = "index, follow"> <!-- Используется поисковыми системами при индексации страниц и прохода по ссылкам поисковой системой-->
-    <meta name = "viewport" content = "width=device-width, initial-scale = 1"> <!--Для того, чтобы мобильные браузеры автоматически не изменяли размер страниц сайта-->
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <title>AniLeague</title>
-    <link rel="icon" href="style/icon.png" sizes="16x16 32х32" type="image/png">
-    <link href="style/style.css" type="text/css" rel="stylesheet">
-    <script src="scripts/page_script.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<header class="photoHeader">
-    <form class="button">  
-    <button><b>Вход</b></button>
-    <button><b>Регистрация</b></button>
-    </form>
-    <nav class="main_nav">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="">Случайное</a></li>
-            <li><a href="">Каталог</a></li>
-            <li><a href="">Топ аниме</a></li>
-            <li><a href="">Рейтинг пользователей</a></li>
-            <li><a href="">Команда</a></li>
-            <li><a href="">Помощь</a></li>
 
+<nav class="navbar navbar-expand-sm navbar-dark pb-0 pt-0 justify-content-between navbar-inverse" style="background: #22232a">
+    <!-- Brand -->
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><b>AniLeague</b></a>
+        </div>
+
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="nav navbar-nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Главная</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Топ аниме</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Случайное</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Расширенный каталог</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                    Помощь
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Рейтинг пользователей</a>
+                    <a class="dropdown-item" href="#">Команда</a>
+                    <a class="dropdown-item" href="#">Тех Поддержка</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                </div>
+            </li>
         </ul>
-    </nav>
-    <img src="src/ur_an.png" alt="bb">
-    <p><b>AniLeague</b></p>
-</header>
+        </div>
+    </div>
+</nav>
 
-<main>
-    <section class="team">
-        <h1>Команда AniLeague</h1>
-        <details>
-            <summary> Aлексей Гамбургер</summary>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit purus vitae bibendum ullamcorper. Phasellus lacinia sed nisl ac lacinia. Vestibulum ac consectetur ex, ac venenatis lorem. Cras rhoncus justo sed magna porta, eu sollicitudin nisl rutrum. Fusce blandit volutpat lectus ut finibus. Praesent accumsan varius sollicitudin. Nunc eget mi mauris.
 
-            Donec luctus metus quis eleifend egestas. Proin purus ipsum, eleifend vel eros ac, ultrices ullamcorper ligula. Etiam vitae justo quis felis fermentum malesuada. Ut gravida enim at ipsum auctor, a hendrerit est volutpat. Nam vulputate libero vel congue feugiat. Integer tincidunt mollis erat ac imperdiet. Morbi pretium leo eu convallis interdum. Ut at vestibulum purus.
-        </p>
-        </details>
-        <details>
-            <summary>БАКУГАНИН</summary>
-        <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit purus vitae bibendum ullamcorper. Phasellus lacinia sed nisl ac lacinia. Vestibulum ac consectetur ex, ac venenatis lorem. Cras rhoncus justo sed magna porta, eu sollicitudin nisl rutrum. Fusce blandit volutpat lectus ut finibus. Praesent accumsan varius sollicitudin. Nunc eget mi mauris.
 
-            Donec luctus metus quis eleifend egestas. Proin purus ipsum, eleifend vel eros ac, ultrices ullamcorper ligula. Etiam vitae justo quis felis fermentum malesuada. Ut gravida enim at ipsum auctor, a hendrerit est volutpat. Nam vulputate libero vel congue feugiat. Integer tincidunt mollis erat ac imperdiet. Morbi pretium leo eu convallis interdum. Ut at vestibulum purus.
-        </p>
-        </details>
-
-        <details>
-            <summary>Саня </summary>
-        <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit purus vitae bibendum ullamcorper. Phasellus lacinia sed nisl ac lacinia. Vestibulum ac consectetur ex, ac venenatis lorem. Cras rhoncus justo sed magna porta, eu sollicitudin nisl rutrum. Fusce blandit volutpat lectus ut finibus. Praesent accumsan varius sollicitudin. Nunc eget mi mauris.
-
-            Donec luctus metus quis eleifend egestas. Proin purus ipsum, eleifend vel eros ac, ultrices ullamcorper ligula. Etiam vitae justo quis felis fermentum malesuada. Ut gravida enim at ipsum auctor, a hendrerit est volutpat. Nam vulputate libero vel congue feugiat. Integer tincidunt mollis erat ac imperdiet. Morbi pretium leo eu convallis interdum. Ut at vestibulum purus.
-        </p>
-        </details>
-
-        <details>
-            <summary>ИЛЬЯС</summary>
-        <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit purus vitae bibendum ullamcorper. Phasellus lacinia sed nisl ac lacinia. Vestibulum ac consectetur ex, ac venenatis lorem. Cras rhoncus justo sed magna porta, eu sollicitudin nisl rutrum. Fusce blandit volutpat lectus ut finibus. Praesent accumsan varius sollicitudin. Nunc eget mi mauris.
-
-            Donec luctus metus quis eleifend egestas. Proin purus ipsum, eleifend vel eros ac, ultrices ullamcorper ligula. Etiam vitae justo quis felis fermentum malesuada. Ut gravida enim at ipsum auctor, a hendrerit est volutpat. Nam vulputate libero vel congue feugiat. Integer tincidunt mollis erat ac imperdiet. Morbi pretium leo eu convallis interdum. Ut at vestibulum purus.
-        </p>
-        </details>
-
-        <details>
-            <summary>Что-то белое на губах</summary>
-        <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit purus vitae bibendum ullamcorper. Phasellus lacinia sed nisl ac lacinia. Vestibulum ac consectetur ex, ac venenatis lorem. Cras rhoncus justo sed magna porta, eu sollicitudin nisl rutrum. Fusce blandit volutpat lectus ut finibus. Praesent accumsan varius sollicitudin. Nunc eget mi mauris.
-
-            Donec luctus metus quis eleifend egestas. Proin purus ipsum, eleifend vel eros ac, ultrices ullamcorper ligula. Etiam vitae justo quis felis fermentum malesuada. Ut gravida enim at ipsum auctor, a hendrerit est volutpat. Nam vulputate libero vel congue feugiat. Integer tincidunt mollis erat ac imperdiet. Morbi pretium leo eu convallis interdum. Ut at vestibulum purus.
-        </p>
-        </details>
-
-        <details>
-            <summary>Petr </summary>
-        <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit purus vitae bibendum ullamcorper. Phasellus lacinia sed nisl ac lacinia. Vestibulum ac consectetur ex, ac venenatis lorem. Cras rhoncus justo sed magna porta, eu sollicitudin nisl rutrum. Fusce blandit volutpat lectus ut finibus. Praesent accumsan varius sollicitudin. Nunc eget mi mauris.
-
-            Donec luctus metus quis eleifend egestas. Proin purus ipsum, eleifend vel eros ac, ultrices ullamcorper ligula. Etiam vitae justo quis felis fermentum malesuada. Ut gravida enim at ipsum auctor, a hendrerit est volutpat. Nam vulputate libero vel congue feugiat. Integer tincidunt mollis erat ac imperdiet. Morbi pretium leo eu convallis interdum. Ut at vestibulum purus.
-        </p>
-        </details>
-    </section>
-</main>
-
-<footer>
-    <nav class="main_nav">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="">Случайное</a></li>
-            <li><a href="">Каталог</a></li>
-            <li><a href="">Топ аниме</a></li>
-            <li><a href="">Рейтинг пользователей</a></li>
-            <li><a href="">Помощь</a></li>
-        </ul>
-    </nav></footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
 </html>

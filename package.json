@@ -1,0 +1,30 @@
+{
+  "name": "anileague",
+  "version": "1.0.0",
+  "description": "website about anime",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetrTolstov/AniLeague.git"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Petr Tolstov <petr.tolstov@ivkhk.ee>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetrTolstov/AniLeague/issues"
+  },
+  "homepage": "https://github.com/PetrTolstov/AniLeague#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

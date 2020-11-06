@@ -1,42 +1,6 @@
-@media (max-width: 900px) {
- div.logo{
-     visibility: hidden;
- }
-    nav.main_nav ul{
-        right: auto;
-    }
 
-}
 
-@media (max-width: 670px) {
-    header.photoHeader form.button{
-        right: auto;
-    }
-    nav.main_nav ul li.main{
-        padding-right: 10px;
-    }
 
-    nav.main_nav ul details summary.text-white {
-
-        width: auto;
-    }
-    div.container.mt-5{
-        width: 100%;
-    }
-
-    a img{
-        height: 320px;
-        width: 275px;
-
-    }
-    p.with_a{
-        width: 275px;
-        background: rgba(255, 255, 255, 0.9);
-        color: black ;
-        border-bottom: #5c9696 3px solid;
-    }
-
-}
 
 
 
@@ -239,13 +203,13 @@ div a{
     overflow: hidden;
 }
 
-.with_a:hover{
-    background: rgba(255, 255, 255, 0.9);
-    color: black ;
-    overflow: auto;
-    height: auto;
-    max-height: none;
+.nav-link:hover {
     border-bottom: #5c9696 3px solid;
+}
+
+
+.nav-link{
+    border-bottom: rgba(0,0,0,0) 3px solid;
 
 }
 
@@ -257,33 +221,4 @@ main aside a img, main section a img{
               }
 
 
-
-
-
-/* right or prev direction
-.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-.carousel-item-prev.carousel-item-right + .carousel-item,
-.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
-.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-    display: block;
-    visibility: visible;
-}
-
-
-
-/* Bootstrap Lightbox using Modal
-
-#profile-grid { overflow: auto; white-space: normal; }
-#profile-grid .profile { padding-bottom: 40px; }
-#profile-grid .panel { padding: 0 }
-#profile-grid .panel-body { padding: 15px }
-#profile-grid .profile-name { font-weight: bold; }
-#profile-grid .thumbnail {margin-bottom:6px;}
-#profile-grid .panel-thumbnail { overflow: hidden; }
-#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
-*/
 
