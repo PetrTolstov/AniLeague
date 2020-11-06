@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/PetrTolstov/AniLeague#readme",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
