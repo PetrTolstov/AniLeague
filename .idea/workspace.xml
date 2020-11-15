@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="07.11">
+    <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="15">
       <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/CHANGELOG.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" afterDir="false" />
@@ -301,7 +301,7 @@
       <workItem from="1604948929148" duration="4846000" />
       <workItem from="1605165754130" duration="2079000" />
       <workItem from="1605449916315" duration="3068000" />
-      <workItem from="1605459193514" duration="977000" />
+      <workItem from="1605459193514" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1602445949937</created>
@@ -416,17 +416,19 @@
     <MESSAGE value="02.11" />
     <MESSAGE value="05.11" />
     <MESSAGE value="07.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.11" />
+    <MESSAGE value="15.11" />
+    <MESSAGE value="15" />
+    <option name="LAST_COMMIT_MESSAGE" value="15" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="140" key="#HTTP_Proxy" timestamp="1605456729340">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="462" y="140" key="#HTTP_Proxy/0.40.1366.728@0.40.1366.728" timestamp="1605456729340" />
-    <state x="309" y="82" key="#Inspections" timestamp="1602149999375">
+    <state x="309" y="82" key="#Inspections" timestamp="1605459712588">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="309" y="82" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1602149999375" />
+    <state x="309" y="82" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1605459712588" />
     <state x="395" y="182" key="#Node.js_and_NPM" timestamp="1603031173394">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -531,10 +533,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1603212762406" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1604698964571">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1605460408436">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1604698964571" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1605460408436" />
     <state x="500" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604555770890">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
