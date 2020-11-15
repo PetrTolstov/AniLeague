@@ -19,14 +19,174 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="05.11">
+    <list default="true" id="68e9bfc6-3394-4827-8be2-06a5659652d7" name="Default Changelist" comment="07.11">
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/doc/API.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-util-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-util-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-util-is/float.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-util-is/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-util-is/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/Changes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/License" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Pool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolCluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConnection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolNamespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/BufferList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/ResultSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/field_flags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EofPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalInfileRequestPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OkPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sqlstring/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sqlstring/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sqlstring/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sqlstring/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sqlstring/lib/SqlString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sqlstring/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/string_decoder/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/string_decoder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/string_decoder/lib/string_decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/util-deprecate/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/util-deprecate/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/util-deprecate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/util-deprecate/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/util-deprecate/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/baseFilm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baseFilm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstreact/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +296,12 @@
       <workItem from="1604518252697" duration="90000" />
       <workItem from="1604555641431" duration="5620000" />
       <workItem from="1604661293444" duration="1330000" />
-      <workItem from="1604679589875" duration="8155000" />
+      <workItem from="1604679589875" duration="15269000" />
+      <workItem from="1604941887735" duration="208000" />
+      <workItem from="1604948929148" duration="4846000" />
+      <workItem from="1605165754130" duration="2079000" />
+      <workItem from="1605449916315" duration="3068000" />
+      <workItem from="1605459193514" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1602445949937</created>
@@ -215,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604555798932</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="07.11">
+      <created>1604698963087</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604698963087</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,9 +415,14 @@
     <MESSAGE value="23.10" />
     <MESSAGE value="02.11" />
     <MESSAGE value="05.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.11" />
+    <MESSAGE value="07.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.11" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="140" key="#HTTP_Proxy" timestamp="1605456729340">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="462" y="140" key="#HTTP_Proxy/0.40.1366.728@0.40.1366.728" timestamp="1605456729340" />
     <state x="309" y="82" key="#Inspections" timestamp="1602149999375">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -266,10 +443,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="479" y="193" key="#Web_Browsers/0.40.1366.728@0.40.1366.728" timestamp="1603031466755" />
-    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604698402716">
+    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604702201590">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1604698402716" />
+    <state x="137" y="40" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1604702201590" />
     <state x="352" y="182" key="EditFileWatcherDialog" timestamp="1602149402929">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -278,70 +455,70 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="463" y="159" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1603035251990" />
-    <state width="1323" height="351" key="GridCell.Tab.0.bottom" timestamp="1604697564032">
+    <state width="1323" height="131" key="GridCell.Tab.0.bottom" timestamp="1605450631104">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1604697564032" />
-    <state width="1323" height="351" key="GridCell.Tab.0.center" timestamp="1604697564032">
+    <state width="1323" height="131" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1605450631104" />
+    <state width="1323" height="131" key="GridCell.Tab.0.center" timestamp="1605450631104">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1604697564032" />
-    <state width="1323" height="351" key="GridCell.Tab.0.left" timestamp="1604697564032">
+    <state width="1323" height="131" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1605450631104" />
+    <state width="1323" height="131" key="GridCell.Tab.0.left" timestamp="1605450631104">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1604697564032" />
-    <state width="1323" height="351" key="GridCell.Tab.0.right" timestamp="1604697564032">
+    <state width="1323" height="131" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1605450631104" />
+    <state width="1323" height="131" key="GridCell.Tab.0.right" timestamp="1605450631104">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1604697564032" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603121636575">
+    <state width="1323" height="131" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1605450631104" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1605450268086">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1605450268086" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1605450268085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.3.bottom" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1605450268085" />
+    <state width="1323" height="223" key="GridCell.Tab.3.bottom" timestamp="1605450268086">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.bottom/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.3.center" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.3.bottom/0.40.1366.728@0.40.1366.728" timestamp="1605450268086" />
+    <state width="1323" height="223" key="GridCell.Tab.3.center" timestamp="1605450268086">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.center/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.3.left" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.3.center/0.40.1366.728@0.40.1366.728" timestamp="1605450268086" />
+    <state width="1323" height="223" key="GridCell.Tab.3.left" timestamp="1605450268086">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.left/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
-    <state width="1323" height="223" key="GridCell.Tab.3.right" timestamp="1603121636575">
+    <state width="1323" height="223" key="GridCell.Tab.3.left/0.40.1366.728@0.40.1366.728" timestamp="1605450268086" />
+    <state width="1323" height="223" key="GridCell.Tab.3.right" timestamp="1605450268086">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.right/0.40.1366.728@0.40.1366.728" timestamp="1603121636575" />
+    <state width="1323" height="223" key="GridCell.Tab.3.right/0.40.1366.728@0.40.1366.728" timestamp="1605450268086" />
     <state x="517" y="327" key="NewPhpFileDialog" timestamp="1602148268792">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -354,10 +531,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1603212762406" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1604555802089">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1604698964571">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1604555802089" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1604698964571" />
     <state x="500" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604555770890">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -370,9 +547,9 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="339" y="182" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1604608776556" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604169129327">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605456927485">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1604169129327" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1605456927485" />
   </component>
 </project>
